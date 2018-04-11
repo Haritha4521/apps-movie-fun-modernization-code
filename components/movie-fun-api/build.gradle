@@ -1,0 +1,16 @@
+apply from: "../../java.gradle"
+
+dependencies {
+
+    compile project(":components:blobstore")
+
+    compile "org.springframework:spring-web:$springVersion"
+
+    compile "javax.servlet:javax.servlet-api:3.1.0"
+    compile "org.slf4j:slf4j-api:$slf4jVersion"
+    compile "org.hibernate:hibernate-core:$hibernateVersion"
+    compile "org.springframework:spring-jdbc:$springVersion"
+    compile "org.apache.tika:tika-core:1.14"
+
+
+}
