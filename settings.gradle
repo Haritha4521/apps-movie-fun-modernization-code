@@ -7,5 +7,7 @@ include "components:movie-fun-api"
 include "components:blobstore"
 include "applications:movie-service"
 include "applications:albums-service"
+include "databases:album-database"
+include "databases:movie-database"
 
 
